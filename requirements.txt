@@ -1,0 +1,26 @@
+# Core numerical, evaluation, and plotting stack
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+openpyxl>=3.1
+
+# NLP & lexical evaluation
+rouge-score>=0.1.2
+bert-score>=0.3.13
+sentencepiece>=0.2.0
+
+# Training & local inference (GPU experiments)
+torch>=2.3
+transformers>=4.46
+accelerate>=0.34
+peft>=0.12
+trl>=0.11
+datasets>=2.20
+bitsandbytes>=0.43
+safetensors>=0.4
+modelscope>=1.18
+# Optional high-throughput serving & RLHF trainers:
+# ms-swift>=3.0
+# vllm>=0.6
